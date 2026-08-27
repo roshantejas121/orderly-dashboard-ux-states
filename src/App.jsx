@@ -1,4 +1,5 @@
-import { SIMULATE } from './mockApi'
+import { useState, useEffect } from 'react'
+import { fetchOrders, SIMULATE } from './mockApi'
 import OrdersDashboard from './components/OrdersDashboard'
 
 export default function App() {
