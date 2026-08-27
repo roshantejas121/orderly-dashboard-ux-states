@@ -43,4 +43,4 @@ The dashboard now communicates what is happening at every point in the request l
 
 The mock API remains the state switch for manual verification. Set `SIMULATE` in `src/mockApi.js` to `loading`, `success`, `empty`, or `error`, then run the project with `npm run dev`. The success view can additionally be tested by searching, changing the status, and enabling the high-priority filter until the context-aware filtered empty state appears.
 
-The production build is verified with `npm run build` before publication. The deployed application URL will be added here once the public repository deployment is available.
+The production build is verified with `npm run build` before publication. The public deployment is available at https://roshantejas121.github.io/orderly-dashboard-ux-states/.
